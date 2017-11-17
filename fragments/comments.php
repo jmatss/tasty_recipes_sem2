@@ -55,6 +55,6 @@
 			</form>
 		';
 	} else {
-		echo '<br/><p class="errortext">You must log in to write comments!</p>';
+		echo '<br/><p>You must log in to write comments!</p>';
 	}
 ?>

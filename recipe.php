@@ -15,19 +15,24 @@
 		</nav>
 		<div class="main">
 			<section class="main_section">
-			<?php 
-				if(isset($_GET['recipe'])) {
-					$number = (int) $_GET['recipe'];
-				} else {
-					echo 'Something went wrong, try again!';
-					exit;
-				}
+				<?php 
+					if(isset($_GET['recipe'])) {
+						$number = (int) $_GET['recipe'];
+					} else {
+						echo 'Something went wrong, try again!';
+						exit;
+					}
 
-				$recipes = simplexml_load_file('xml/recipes.xml') or die("fel");
-				if ($recipes === false) {
-					echo 'Failed to load XML recipes!';
-				}
-			?>
+					$recipes = simplexml_load_file('xml/recipes.xml');
+					if ($recipes === false) {
+						echo 'Failed to load recipes!';
+						exit;
+					}
+					if (empty($recipes->recipe[$number])) {
+						echo 'Couldn\'t find the specified recipe, try again!';
+						exit;
+					}
+				?>
 				<div class="recipe_header"> 
 					<h1><?php echo $recipes->recipe[$number]->title ?></h1>
 					<div class="recipe_header_info">

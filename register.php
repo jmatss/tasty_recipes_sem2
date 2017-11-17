@@ -18,7 +18,7 @@
 			<h1>Register</h1><br/>
 			<?php
 				if (isset($_SESSION['username'])) {
-					echo 'You are logged in as <b>'. $_SESSION['username'] . '</b>!'; 
+					echo 'You have been registered as <b>'. $_SESSION['username'] . '</b>!'; 
 				} else {
 					
 					echo '
