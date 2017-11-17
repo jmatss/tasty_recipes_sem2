@@ -39,6 +39,8 @@
 							if ($tasty_recipesDAO->loginUser($_POST['username'], $_POST['password'])) {
 								header("refresh:0");
 							}
+						} else {
+							echo '<p class="errortext">This username is already taken!</p>';
 						}
 					}
 				}

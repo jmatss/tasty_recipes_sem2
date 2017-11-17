@@ -5,10 +5,14 @@
 		include 'tasty_recipesDAO.php';
 		$tasty_recipesDAO = new tasty_recipesDAO();
 		if (isset($_POST['timestamp'])) {
-			$tasty_recipesDAO->deleteComment($_POST['timestamp']);
+			if(!($tasty_recipesDAO->deleteComment($_POST['timestamp']))) {
+				echo '<p class="errortext">Something went wrong, try again!</p>';
+			}
 		}
 		if (isset($_POST['username']) && isset($_POST['recipe_number']) && isset($_POST['comment'])) {
-			$tasty_recipesDAO->writeComment($_POST['username'], $_POST['recipe_number'], $_POST['comment']);
+			if (!($tasty_recipesDAO->writeComment($_POST['username'], $_POST['recipe_number'], $_POST['comment']))) {
+				echo '<p class="errortext">Something went wrong, try again!</p>';
+			}
 		}
 		if ($comments = $tasty_recipesDAO->getComments($number)) {
 			while($comment = $comments->fetch_assoc()) {

@@ -37,6 +37,8 @@
 						$tasty_recipesDAO = new tasty_recipesDAO();
 						if($tasty_recipesDAO->loginUser($_POST['username'], $_POST['password'])) {
 							header("refresh:0");
+						} else {
+							echo '<p class="errortext">Wrong username or password!</p>';
 						}
 					}
 				}
