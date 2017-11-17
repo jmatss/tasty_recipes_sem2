@@ -8,22 +8,10 @@
 	</head>
 	<body>
 		<header>
-			<div id="logo">
-				<a href="index.html">Tasty recipes</a>
-			</div>
+			<?php include 'fragments/header.php' ?>
 		</header>
 		<nav>
-			<ul>
-				<li>
-					<a href="index.html">
-						Recipes
-					</a>
-				</li><li>
-					<a href="calendar.html" class="active">
-						Calendar
-					</a>
-				</li>
-			</ul>
+			<?php include 'fragments/nav.php' ?>
 		</nav>
 		<div class="main">
 			<section class="main_section">
@@ -104,7 +92,7 @@
 					<div class="calendar_col">
 						<div class="calendar_day">
 							9 <div class="calendar_week_label">Tue</div>
-							<a href="meatballs.html"><img src="images/meatballs.png" alt="Picture of meatballs" /></a>
+							<a href="recipe.php?recipe=0"><img src="images/meatballs.png" alt="Picture of meatballs" /></a>
 						</div>
 					</div>
 					<div class="calendar_col">
@@ -153,7 +141,7 @@
 					<div class="calendar_col">
 						<div class="calendar_day">
 							18 <div class="calendar_week_label">Thu</div>
-							<a href="pancakes.html"><img src="images/pancakes.jpg" alt="Picture of pancakes" /></a>
+							<a href="recipe.php?recipe=1"><img src="images/pancakes.jpg" alt="Picture of pancakes" /></a>
 						</div>
 					</div>
 					<div class="calendar_col">

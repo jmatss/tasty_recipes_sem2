@@ -51,7 +51,13 @@ nav {
 	text-align: center;
 }
 
+#nav_div {
+	margin: auto;
+	width: 1000px;
+}
+
 nav ul {
+	float: left;
 	margin: auto;
 	padding: 0;
 	overflow: hidden;
@@ -82,6 +88,24 @@ nav li a:hover:not(.active) {
 
 nav li:last-child {
 	border-right: 1px solid #222;
+}
+
+nav #login {
+	float: right;
+	margin: 0.3em .3em 0.3em .3em;
+	display: inline-block;
+	font-family: sans-serif;
+	background: #f3f0eb;
+	color: #111;
+	border-radius: 3px;
+	padding: 0.4em 0.4em 0.4em 0.4em;
+	border: 1px solid #000;
+}
+nav #login a {
+	padding: 0 0.6em 0 0.6em;
+}
+nav #login a:hover {
+	text-decoration: underline;
 }
 
 .main {
@@ -236,6 +260,7 @@ nav li:last-child {
 
 .comment_name {
 	font-weight: bold;
+	display: inline;
 }
 
 #line {
@@ -249,11 +274,50 @@ nav li:last-child {
 	padding: 1em 0 1em 0;
 	font-weight: bold;
 }
-
 textarea {
 	resize: none;
 	width: 440px;
 	height: 10em;
+}
+label {
+	display: inline-block;
+	padding: 0.4em 0 0.4em 0;
+}
+input[type=text] {
+	background: #f3f0eb;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	border: 1px solid #111;
+}
+input[type=password] {
+	background: #f3f0eb;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	border: 1px solid #111;
+}
+input[type=submit] {
+	border-radius: 3px;
+	background: #333;
+	color: #fff;
+	padding: 0.2em 0.8em 0.2em 0.8em;
+	border: 1px solid #111;
+}
+input[type=reset] {
+	background: none;
+	border: none;
+}
+input[type=submit]:hover {
+	background: #222;
+	text-decoration: underline;
+}
+input[type=reset]:hover {
+	text-decoration: underline;
+}
+
+.errortext {
+	color: red;
+}
+
+#deleteform {
+	display: inline;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -266,11 +330,17 @@ textarea {
 	.image_div {
 		width: 30%;
 	}
+	#nav_div {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	header {
 		display: none;
+	}
+	nav ul {
+		width: 100%;
 	}
 	nav li {
 		width: 100%;
@@ -278,6 +348,9 @@ textarea {
 	nav li {
 		border: none;
 		border-bottom: 1px solid #222;
+	}
+	nav #login {
+		float: none;
 	}
 	.image_div {
 		width: 100%;

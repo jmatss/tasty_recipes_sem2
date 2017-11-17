@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="1">
+
+    <recipe>
+		<title>Meatballs</title>
+		<preptime>25 min</preptime>
+		<cooktime>1 h</cooktime>
+		<servings>6</servings>
+		<description>
+			<li>
+				The Best Swedish Meatballs are smothered in the most amazing rich and creamy gravy. 
+				The meatballs are packed with such delicious flavor you will agree these are the BEST you have ever had!
+			</li>
+		</description>
+		<ingredient>
+			<li>
+				1 pound ground beef
+			</li>
+			<li>
+				&amp;frac14; cup panko bread crumbs
+			</li>
+			<li>
+				1 tablespoon parsley, chopped
+			</li>
+			<li>
+				&amp;frac14; teaspoon ground allspice
+			</li>
+			<li>
+				&amp;frac14; teaspoon ground nutmeg
+			</li>
+			<li>
+				&amp;frac14; cup onion, finely chopped
+			</li>
+			<li>
+				&amp;frac12; teaspoon Garlic Powder
+			</li>
+			<li>
+				&amp;frac12; teaspoon Pepper
+			</li>
+			<li>
+				&amp;frac12; teaspoon salt
+			</li>
+			<li>
+				1 egg
+			</li>
+			<li>
+				1 tbsp. olive oil
+			</li>
+			<li>
+				5 tbsp. butter
+			</li>
+			<li>
+				3 tbsp. flour
+			</li>
+			<li>
+				2 cups beef broth
+			</li>
+			<li>
+				1 cup heavy cream
+			</li>
+			<li>
+				1 Tablespoon Worcestershire sauce
+			</li>
+			<li>
+				1 tsp. Dijon mustard
+			</li>
+			<li>
+				salt and pepper to taste
+			</li>
+		</ingredient>
+		<recipetext>
+			<li>
+				In a medium sized bowl combine ground beef, panko, parsley, allspice, nutmeg, onion, garlic powder, pepper, salt and egg. Mix until combined.
+			</li>
+			<li>
+				Roll into 12 large meatballs or 20 small meatballs. In a large skillet heat olive oil and 1 Tablespoon butter. 
+				Add the meatballs and cook turning continuously until brown on each side and cooked throughout. Transfer to a plate and cover with foil.
+			</li>
+			<li>
+				Add 4 Tablespoons butter and flour to skillet and whisk until it turns brown. Slowly stir in beef broth and heavy cream. 
+				Add worchestershire sauce and dijon mustard and bring to a simmer until sauce starts to thicken. Salt and pepper to taste.
+			</li>
+			<li>
+				Add the meatballs back to the skillet and simmer for another 1-2 minutes. Serve over egg noodles or rice.
+			</li>
+		</recipetext>
+		<imagepath>/images/meatballs.png</imagepath>
+	</recipe>
+		
+	<recipe>
+		<title>Pancakes</title>
+		<preptime>25 min</preptime>
+		<cooktime>1 h</cooktime>
+		<servings>12</servings>
+		<description>
+			<li>
+				Maple Sweet Potato Pancakes. These maple sweetened sweet potato pancakes are so thick and fluffy. Not to mention perfectly spiced and flavorful. 
+			</li>
+		</description>
+		<ingredient>
+			<li>
+				1 and &amp;frac14; cup sweet potato puree 
+			</li>
+			<li>
+				1 5.3 ounce container greek yogurt
+			</li>
+			<li>
+				&amp;frac12; cup milk
+			</li>
+			<li>
+				3 tablespoons unsalted butter melted
+			</li>
+			<li>
+				1 large egg
+			</li>
+			<li>
+				2 tablespoons maple syrup
+			</li>
+			<li>
+				1 cup all purpose flour
+			</li>
+			<li>
+				&amp;frac14; teaspoon baking powder
+			</li>
+			<li>
+				&amp;frac14; teaspoon baking soda
+			</li>
+			<li>
+				&amp;frac12; teaspoon salt
+			</li>
+			<li>
+				&amp;frac12; teaspoon ground nutmeg
+			</li>
+			<li>
+				&amp;frac14; teaspoon ground cinnamon
+			</li>
+			<li>
+				&amp;frac12; teaspoon vanilla extract
+			</li>
+		</ingredient>
+		<recipetext>
+			<li>
+				In a large mixing bowl combine the sweet potato puree and greek yogurt. Add in the milk, melted butter, egg and maple syrup. Stir to combine.
+			</li>
+			<li>
+				Add in the flour, baking powder, baking soda, salt, nutmeg and cinnamon to the mixing bowl. Stir to combine. Add in the vanilla extract and mix.
+			</li>
+			<li>
+				Heat a large skillet over medium heat. Spray with cooking spray or melt some butter on the pan. 
+				Using a &amp;frac14; measuring cup scoop the pancake batter and pour onto the heated skillet. Work in batches of 3-4 pancakes depending on what can fit on the skillet.
+			</li>
+			<li>
+				Cook the pancakes for about 2-3 minutes, you will notice bubbles forming on the top of the pancake batter, then flip to cook the other side for an additional 2-3 minutes. 
+				Remove the pancakes from the skillet and continue until all pancake batter is cooked.
+			</li>
+			<li>
+				Serve warm with butter and additional maple syrup. Enjoy!
+			</li>
+		</recipetext>
+		<imagepath>/images/pancakes.jpg</imagepath>
+	</recipe>
+	
+</cookbook>
